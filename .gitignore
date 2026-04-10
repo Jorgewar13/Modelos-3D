@@ -1,0 +1,92 @@
+# =========================
+# 3ds Max Backup & Autosave
+# =========================
+*.max.autosave
+*.max.bak
+autoback/
+
+# =========================
+# Render outputs (opcional)
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.tga
+*.bmp
+*.exr
+*.tif
+*.tiff
+*.avi
+*.mov
+renders/
+
+# =========================
+# Simulation caches
+# =========================
+*.fxd
+*.vdb
+*.aur
+*.bin
+*.mc
+*.xml
+cache/
+Caches/
+
+# =========================
+# Phoenix FD / Fluids / Particles
+# =========================
+*.aur
+*.vdb
+*.fxd
+
+# =========================
+# Temp & logs
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# User-specific config
+# =========================
+*.ini
+*.cfg
+*.json
+
+# =========================
+# Plugins / compilados
+# =========================
+*.dll
+*.dlo
+*.dlr
+*.dlu
+*.dlm
+*.dlt
+*.dli
+
+# =========================
+# Archivos de exportación (si no quieres subirlos)
+# =========================
+*.fbx
+*.obj
+*.abc
+*.3ds
+
+# =========================
+# Carpetas comunes a ignorar
+# =========================
+temp/
+tmp/
+logs/
+output/
+build/
+dist/
